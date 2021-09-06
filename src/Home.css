@@ -1,0 +1,441 @@
+ body{
+  box-sizing: border-box;
+}
+ 
+*, button, input {
+  font-family: 'Roboto', sans-serif;
+}
+
+#Logar{
+  position:absolute;
+  top:10px;
+  
+  right:130px;
+}
+
+#botaoLogin{
+  position:absolute;
+  top:10px;
+  right:30px;
+}
+
+
+#MaskGroup {
+  position:relative;
+  margin: auto;
+  
+  top:50px;
+  
+  height:500px;
+  
+}
+
+.GoTokens h2{
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 38px;
+line-height: 45px;
+display: flex;
+align-items: center;
+
+color: #FDC921;
+}
+
+.NFT {
+  position:absolute;
+  text-align: center;
+}
+
+.paragrafo {
+  position:absolute;
+  text-align: center;
+  top: 200px;  
+ 
+  text-align: left;
+  
+}
+
+.paragrafo p {
+  
+  color: #454545;
+  font-weight: 400;
+  font-size: 24px;
+  
+}
+
+.botao {
+position:absolute;
+width: 172px;
+height: 50px;
+top: 340px;
+}
+
+.RoleAbaixo {
+position:absolute;
+width: 232px;
+height: 17px;
+
+top: 410px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+}
+
+
+.gradient {
+  background-image: linear-gradient(to right, #FF95D9,#FEAE81, #FDC921);
+  
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+
+  
+  color: black;
+
+}
+
+#botaoComecar{
+  border-radius: 17px;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 0 4px #C8C8C8;
+  height: 40px;
+  width: 200px; 
+}
+
+#botaoComecar:hover  {
+  background-color: #C8C8C8;
+}
+
+
+
+/*ladoDireitoDoPrimeiroContainer*/
+
+
+#botaoLogin:hover  {
+  background-color: #C8C8C8;
+}
+
+#botaoLogin{
+  border-radius: 17px;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.19);
+  height: 25px;
+  width: 83px;
+  
+}
+
+#PrimeiraImagem{
+  position:absolute;
+  
+  width:800px;
+  margin-top:-80px;
+  margin-left:-140px;
+  
+}
+
+#MaskGroupLdireito{
+  position:relative;
+  height:500px;
+ 
+}
+
+
+#MaskGroupLdireitoImg  {
+  position:absolute;
+  top: -50px; 
+}
+
+#espaçoSumir{
+  height: 200px;
+  
+}
+
+
+/*tokenize tudo*/
+
+#NossosServicos{
+ text-align: center;
+ 
+}
+
+#cardBox{
+ position: relative;
+ height: 130px;
+ 
+ background-color: #FFFFFF;
+  width: 100%;
+  
+  border-radius: 17px;  
+  display: inline-flex;
+  
+ 
+}
+
+#corpoDoCard{
+  width: 100%;
+  height: 100%;
+  border-radius: 17px; 
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.19);
+  
+}
+
+#corpoTexto{
+  position: absolute;
+  top:15px;
+  left: 115px;
+}
+
+/*Seu espaço pessoal de vendas*/
+
+#ImgMeuPerfil{
+  position: relative;
+}
+
+#MeuPerfil{
+  position: relative;
+  height: 400px;
+}
+
+#TituloPerfil{
+  position: absolute; 
+  top: 30px;
+}
+
+#UlPerfil{
+  position: absolute;
+  
+  top: 120px;
+}
+
+ul {
+  list-style-image: url('../src/images/check2.png');
+  
+}
+
+
+/*PRATICIDADE E ACESSIBILIDADE*/
+
+#PraticidadeCorpo{
+  position: relative; 
+  border-radius: 17px;  
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.19);
+}
+
+#testCor1{
+  text-align: center;
+  margin-top: 40px;
+  
+}
+
+#testCor{
+  text-align: center;
+   
+}
+
+
+#Crie{
+  margin-top: 20px;
+  text-align: center; 
+}
+
+#PubliqueEspaco{
+  margin-top: 20px;
+  text-align: center;
+  width: 100%; 
+}
+
+#DivulguePagina{
+  margin-top: 20px;
+  text-align: center;
+  width: 100%; 
+}
+
+/*fim do bloco praticidade*/
+
+#FundoUtilityTokens{
+  position: relative;
+ 
+}
+
+#UtilityTokensTitulo{
+  margin-left: 60px;
+  margin-top: 40px;
+  height: 310px;
+}
+
+
+#FundoComeceagora{
+  position: relative;
+  height: 450px; 
+}
+
+
+
+#ComeceAgora{
+  position: relative;
+  margin-top: 150px;
+  text-align: center;
+  height: 310px;
+ 
+}
+
+#botaoNFT{
+  text-align: center;
+  border-radius: 17px;
+  background-color: #FFFFFF;
+  font-weight: 500;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.19);
+  height: 35px;
+  width: 120px;
+}
+
+/* footer */
+#SeEscreva{
+  width: 440px;
+
+ margin-left: 55px;
+ margin-top: 15px;
+}
+
+#botaoSeInscreverFooter{
+  border-radius: 17px;
+  background-color: #FFFFFF;
+  font-weight: 500;
+  border: none;
+  
+  height: 30px;
+  width: 120px;
+  color: #A19D9D;
+  border: solid 1px #DFDFDF;
+  margin-left: 15px;
+}
+
+#SeuEmail{
+  border-radius: 18px;
+  width:275px ;
+  height: 30px;
+}
+
+#SeuEmail{
+  background: url(images/carta.png) no-repeat scroll 10px 10px;
+  
+}
+#main-footer {
+  background-color:#FFFFFF;
+  padding-top: 2em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 230px;
+  
+}
+
+#botaoFooter {
+  
+  border-radius: 17px;
+  background-color: #FFFFFF;
+  color: #717171;
+  font-weight: bold;
+  border: none;
+  border: 1px solid #DFDFDF;
+  box-sizing: border-box;
+  height: 35px;
+  width: 160px;
+  
+}
+
+#GotokensFoter{
+  margin-left: 80px;
+  margin-top: 15px;
+}
+
+#tradutor{
+  
+  margin-top: 15px;
+  margin-left: 60px;
+}
+
+
+
+#botaoNFT:hover  {
+  background-color: #C8C8C8;
+}
+#botaoFooter:hover  {
+  background-color: #C8C8C8;
+}
+
+#botaoMenu:hover  {
+  background-color: #C8C8C8;
+}
+
+#botaoHome:hover  {
+  background-color: #C8C8C8;
+}
+
+#botaoSeInscrever:hover {
+  background-color: #C8C8C8;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+
+  #MaskGroupLdireito {
+    height:400px;
+    
+  }
+  .buttonFaq{  
+    bottom: -30px;
+    right: 5px;
+    
+  }
+  
+  #UtilityTokensTitulo{
+    margin-left: 20px;
+    height: 100%;
+  }
+
+  #testCor{ 
+    margin-top: 10px;
+  }
+  
+  #Crie{
+    margin-top: 0px;
+      
+  }
+
+  #PubliqueEspaco{
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  #DivulguePagina{
+     margin-top: 0px;
+     width: 100%;
+     
+  }
+
+  #SeEscreva{
+    
+    width: 100%;
+  }
+
+  #SeuEmail{ 
+    width:100% ;
+  }
+  .main-footer {
+ 
+    height: 100%;
+  }
+  
+}
+
